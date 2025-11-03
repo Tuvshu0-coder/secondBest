@@ -3,6 +3,8 @@ using namespace std;
 using ll = long long;
 
 int main(){
+    freopen("bcount.in", "r", stdin);
+    freopen("bcount.out", "w", stdout);
     int N, Q;
     cin >> N >> Q;
     vector<ll> arr(N);
@@ -30,7 +32,6 @@ int main(){
         n2 = pref[right][1] - pref[left-1][1];
         n3 = pref[right][2] - pref[left-1][2];
         cout << n1 << " " << n2 << " " << n3 << '\n';        
-        cout<<"HI";
     }
 
 
