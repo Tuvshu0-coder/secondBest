@@ -30,7 +30,7 @@ int main(){
         n2 = pref[right][1] - pref[left-1][1];
         n3 = pref[right][2] - pref[left-1][2];
         cout << n1 << " " << n2 << " " << n3 << '\n';        
-
+        cout<<"HI";
     }
 
 
