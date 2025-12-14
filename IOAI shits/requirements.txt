@@ -1,0 +1,11 @@
+pandas>=1.3
+numpy>=1.19
+scikit-learn>=1.0
+optuna
+xgboost
+lightgbm
+catboostpandas
+numpy
+scikit-learn
+xgboost
+lightgbm

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Type Shooter â€” Mini ZType</title>
+  <!-- external CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Comment: This file is the game's main page. It links to styles.css and script.js -->
+</head>
+<body>
+  <!-- Header / navigation (assignment requires links between pages; add others later) -->
+  <header class="site-header">
+    <div class="logo">Type Shooter</div>
+    <nav class="top-nav">
+      <!-- these links can connect to your AI piece and explanation pages later -->
+      <a href="ai_piece.html" class="nav-link">AI Piece</a>
+      <a href="explain.html" class="nav-link">Explain</a>
+      <button id="musicToggle" class="btn">Mute</button>
+    </nav>
+  </header>
+
+  <!-- Main area: canvas game + sidebar for info -->
+  <main class="main-area">
+    <section class="game-card">
+      <!-- Canvas: all game rendering is on canvas -->
+      <canvas id="gameCanvas" width="900" height="600" aria-label="Typing shooter game"></canvas>
+
+      <!-- Visible image element for your player ship (requirement: show at least one image with alt text).
+           We still render the ship on canvas; this <img> is for the assignment condition and fallback. -->
+      <div class="image-row">
+        <img id="playerImgTag" src="assets/images/player_ship.png" alt="Player spaceship (place your image in assets/images/player_ship.png)" />
+        <p class="img-note">My lovely spaceship</p>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="score-box card">
+        <h2 class="score-title">Score</h2>
+        <div id="score">0</div>
+      </div>
+
+      <div class="next-word card">
+        <h3>Current Typed</h3>
+        <div id="typed"> (type to start) </div>
+      </div>
+
+      <div class="instructions card">
+        <h3>How to play</h3>
+        <ol>
+          <li>Type letters to match an enemy's word.</li>
+          <li>Finish a word to shoot that enemy.</li>
+          <li>Don't let enemies reach the bottom.</li>
+        </ol>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Footer with deadline (assignment requirement) -->
+  <footer class="site-footer">
+    <p>Assignment Deadline: 2025-12-17</p>
+  </footer>
+
+  <!-- Background music element (you will provide the file later).
+       Keep the src empty for now; script will control playback. -->
+  <audio id="bgm" src="assets/music/bgm.mp3" loop autoplay></audio>
+
+  
+
+  <!-- external JS -->
+  <script src="script.js"></script>
+  <!-- Comment: script.js contains the game logic, input handling, and asset loading -->
+</body>
+</html>
