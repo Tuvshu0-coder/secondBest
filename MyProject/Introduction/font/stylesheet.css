@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GamiliaPixelDemo-Regular';
+    src: url('GamiliaPixelDemo-Regular.woff2') format('woff2'),
+        url('GamiliaPixelDemo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

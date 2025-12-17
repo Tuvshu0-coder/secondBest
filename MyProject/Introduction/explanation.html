@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Type Shooter - Explanation</title> <!-- Title of my page-->
+  <link rel="stylesheet" href="styles.css" /> <!-- Links styles.css -->
+</head>
+<body>
+  <!-- My Sidebar division -->
+  <div id="sidebar" class="sidebar">
+    <h3>Navigation</h3>
+    <ul>
+      <li><a href="#yourInfo">Author / Contact</a></li> <!-- list with #link which navigates to the desired header-->
+      <li><a href="#howItWasMade">How It Was Made</a></li>
+      <li><a href="#improvements">Improvements</a></li>
+    </ul>
+
+    <button id="backToTopBtn">Back to Top</button> <!-- Button for going back to the Top of the page -->
+    <button id="toggleSideBarBtn">Toggle Sidebar</button> <!-- Button for toggling the sidebar -->
+
+    <br>
+    <br> 
+
+    <h3>Links:</h3> <!-- Links list -->
+    <ul>
+      <li><a href="../type-shooter/index.html"><u>Type Shooter Game</u></a></li> <!-- Link to the Type shooter game-->
+      <li><a href="index.html"><u>Introduction page 紹介ページ</u></a></li> <!-- Link to the Introduction page-->
+    </ul>
+  </div>
+
+  <!-- Main Page Content -->
+  <div class="page">
+    <div class="content">
+      <div class="title-box">TYPE SHOOTER - EXPLANATION</div> <!-- The big title of the page -->
+
+      <div class="container">
+
+        <!-- My info -->
+        <div id="yourInfo" class="page-section">
+          <h3>Author / Contact</h3>
+          <p>Name: Tuvshinzaya Enkhbayar</p>
+          <p>Email: s24c080b@nmct.edu.mn</p>
+        </div>
+
+        <hr>
+
+        <!-- How It Was Made -->
+        <div id="howItWasMade" class="page-section">
+          <h3>How I Made This Page</h3>
+          <ol>
+            <li>Html Structure</li>
+            <ul>
+              <li>Used <code>  &lt;title&gt;, &lt;div&gt;, &lt;h1&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;button&gt;,  &lt;br&gt;, &lt;hr&gt;, &lt;img&gt;, &lt;p&gt;, &lt;u&gt;, &lt;b&gt;</code> tags for layout and content.</li>
+              <li>The page features a sidebar for navigation and links to each section.</li>
+              <li>The main content area contains the title, instructions, game features, and screenshots.</li>
+              <li>Sections are clearly identified with ids (section1, section2, section3) so the links scroll smoothly to each part.</li>
+            </ul>
+            <li>CSS Styling</li>
+            <ul>
+              <li>A retro pixel font gives the page a gaming/arcade vibe.</li>
+              <li>The sidebar is fixed, styled with shadows and rounded corners, and responsive to toggle buttons and keyboard shortcuts.</li>
+              <li>The main container has a patterned background, padding, and shadow for a “floating card” effect.</li>
+              <li>A GIF in the corner is fixed and partially overflowing horizontally for a fun, dynamic look.</li>
+            </ul>
+            <li>Interactive Behavior (JavaScript)</li>
+            <ul>
+              <li>The sidebar toggle button and "S" key show/hide the sidebar.</li>
+              <li>The Back to Top button scrolls smoothly to the top.</li>
+            </ul>
+            <li>Design Choices</li>
+            <ul>
+              <li>Space-themed background image and subtle SVG pattern for atmosphere.</li>
+              <li>Large title box and clear headings improve readability.</li>
+            </ul>
+          </ol>
+        </div>
+
+        <hr>
+
+        <!-- Improvements / 工夫した点 -->
+        <div id="improvements" class="page-section">
+          <h3>My Improvements (工夫した点)</h3>
+          <ol>
+            <li>Used a pixel-style font (GamiliaPixelDemo-Regular) to match the retro game theme.</li>
+            <li>Added a toggle button and keyboard shortcut to hide/show the sidebar.</li>
+            <li>Made it easier for users to quickly scroll back to the top of the page.</li>
+            <li>Added smooth scroll behavior when clicking navigation links.</li>
+            <li>Consistent color scheme and centered content for readability.</li>
+            <li>I added Circuit board pattern background for the page</li>
+          </ol>
+        </div>
+
+        <hr>
+
+        <!-- Code Comments -->
+          </pre>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <img src="./images/astro.gif" class="corner-gif" alt="Fun GIF">
+  <script src="script.js"></script>
+</body>
+</html>
