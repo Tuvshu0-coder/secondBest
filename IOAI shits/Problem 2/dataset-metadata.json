@@ -1,0 +1,50 @@
+{
+  "title": "Дууны үйл явдал таних",
+  "id": "sound-event-detection-dataset",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "audio",
+    "sound",
+    "event detection",
+    "deep learning",
+    "time series",
+    "mongolian",
+    "ml",
+    "ai"
+  ],
+  "description": "5 төрлийн үйл явдлыг агуулсан синтетик дууны үйл явдал таних өгөгдөл",
+  "resources": [
+    {
+      "path": "train/audio",
+      "description": "Сургалтын аудио клип (1400 аудио)"
+    },
+    {
+      "path": "train/annotations.csv",
+      "description": "Сургалтын өгөгдлийн тэмдэглэгээ (дууны төрөл, эхлэх болон дуусах цаг)"
+    },
+    {
+      "path": "validation/audio",
+      "description": "Баталгаажуулалтын аудио клип (200 аудио)"
+    },
+    {
+      "path": "validation/annotations.csv",
+      "description": "Баталгаажуулалтын өгөгдлийн тэмдэглэгээ"
+    },
+    {
+      "path": "test/audio",
+      "description": "Шалгалтын аудио клип (400 аудио) - тэмдэглэгээ өгөгдөхгүй"
+    },
+    {
+      "path": "sample_submission.csv",
+      "description": "Илгээх файлын жишээ"
+    },
+    {
+      "path": "class_mapping.json",
+      "description": "Дууны ангиллууд"
+    }
+  ]
+}

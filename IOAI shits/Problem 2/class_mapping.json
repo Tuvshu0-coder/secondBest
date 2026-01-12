@@ -1,0 +1,10 @@
+{
+  "event_classes": [
+    "speech",
+    "dog_bark",
+    "boom",
+    "car_horn",
+    "power_tool"
+  ],
+  "num_classes": 5
+}
