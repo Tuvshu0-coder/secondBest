@@ -1,8 +1,0 @@
-numpy
-pandas
-tqdm
-soundfile
-librosa
-scikit-learn
-torch
-torchaudio
