@@ -9,7 +9,7 @@ int main()
     srand(time(0));
 
     RenderWindow app(VideoMode(400, 533), "JoJo Jump!");
-    app.setFramerateLimit(70);
+    app.setFramerateLimit(120);
     // Textures
     Texture t1,t2,t3;
     t1.loadFromFile("images/background_sky.png");
