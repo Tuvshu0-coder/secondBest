@@ -51,7 +51,7 @@ int main()
         dy+=0.2;
         y+=dy;
 
-        // Doosh unaval usreh
+        // Respawn
         if (y>500){
             y=100;
             dy=0;
