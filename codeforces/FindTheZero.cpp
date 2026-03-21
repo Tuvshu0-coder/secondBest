@@ -10,8 +10,8 @@ void solve(){
 }
 
 signed main(){
-    // int T;
-    // cin >> T;
-    // while(T--)
+    int T;
+    cin >> T;
+    while(T--)
     solve();
 }
