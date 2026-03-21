@@ -1,0 +1,2 @@
+
+		long long c, k;
